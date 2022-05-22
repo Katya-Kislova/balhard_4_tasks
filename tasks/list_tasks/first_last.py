@@ -14,10 +14,7 @@ workers = [
 
 
 def get_first_last(collection: list) -> tuple:
-    # TODO вставить код ниже
-    first = None
-    last = None
-    return first, last
+    return collection[0], collection[-1]
 
 
 if __name__ == '__main__':

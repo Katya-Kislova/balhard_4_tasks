@@ -23,9 +23,7 @@ TEST_TEMPLATE = {
 
 
 def copy_dict(template: dict) -> dict:
-    # TODO вставить код сюда
-    template_copy = template
-    return template_copy
+    return template.copy()
 
 
 if __name__ == '__main__':

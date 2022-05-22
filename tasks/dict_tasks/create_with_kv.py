@@ -25,7 +25,9 @@ users = {}
 
 
 def save_user(users_list: dict, user_data: dict) -> dict:
-    # TODO вставить код сюда
+    user_login = user_data['login']
+    users_list[user_login] = user_data
+    del users_list[user_login]['login']
     return users_list
 
 
